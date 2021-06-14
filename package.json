@@ -1,7 +1,6 @@
 {
-  "name": "dashboard__",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@toolbot/dashboard",
+  "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

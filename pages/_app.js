@@ -1,7 +1,14 @@
 import '../styles/globals.css'
+import Head from 'next/head';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
-
-export default MyApp
+export default ({ Component, pageProps }) => {
+  return (
+    <>
+      <Head>
+        <title>ToolBot</title>
+        <meta name="title" content="ToolBot" />
+      </Head>
+      <Component {...pageProps} />
+    </>
+  );
+};
